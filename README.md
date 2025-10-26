@@ -21,11 +21,6 @@ Make sure you have the following installed on your system:
    ```bash
    npm install
    ```
-   
-   Or if you're using yarn:
-   ```bash
-   yarn install
-   ```
 
 ## Running the Application
 
@@ -33,11 +28,6 @@ To start the development server:
 
 ```bash
 npm start
-```
-
-Or with yarn:
-```bash
-yarn start
 ```
 
 The application will open in your browser at [http://localhost:3000](http://localhost:3000).
@@ -50,15 +40,24 @@ To build the app for production:
 npm run build
 ```
 
-Or with yarn:
-```bash
-yarn run build
-```
-
 This will create a `build` folder with optimized production files.
+
+## Deployment to GitHub Pages
+
+To deploy this application to GitHub Pages:
+
+1. Make sure the `homepage` field in `package.json` is set correctly:
+   ```json
+   "homepage": "https://egorlitsky.github.io/react-js-tooltips-demo"
+   ```
+
+2. Deploy using the built-in script:
+   ```bash
+   npm run deploy
+   ```
+
+This will build the app and push it to the `gh-pages` branch of your repository.
 
 ## About
 
 This demo application demonstrates various tooltip implementations using the [`react-js-tooltips`](https://www.npmjs.com/package/react-js-tooltips).
-
-

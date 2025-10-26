@@ -2,7 +2,7 @@
   "name": "react-js-tooltips-demo",
   "description": "Demo React App to display how does react-js-tooltips package work",
   "author": "Vladislav Egorlitskii",
-  "homepage": "https://github.com/egorlitsky/react-js-tooltips-demo",
+  "homepage": "https://egorlitsky.github.io/react-js-tooltips-demo",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
